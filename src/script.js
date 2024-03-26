@@ -10,7 +10,7 @@ document.querySelector('#phone-checkbox')
       phoneField.required = !isPhoneRequired
       isPhoneRequired = !isPhoneRequired
     } else {
-      phoneLabelSpan.style,display = 'none'
+      phoneLabelSpan.style.display = 'none'
       phoneField.required = !isPhoneRequired
       isPhoneRequired = !isPhoneRequired
     }
@@ -25,7 +25,7 @@ document.querySelector('button[type="submit"]')
     const textareaField = document.getElementById('open-text-area')
     const productField = document.getElementById('product')
     const helpRadio = document.querySelector('input[value="ajuda"]')
-    const emailCheckbox = document.getElementById('email-checkbox')
+    const emailCheckbox = document.getElementById('')
     const phoneCheckbox = document.getElementById('phone-checkbox')
     const fileField = document.querySelector('input[type="file"]')
     const successMessage = document.querySelector('.success')
